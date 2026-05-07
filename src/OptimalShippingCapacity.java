@@ -13,7 +13,6 @@ public class OptimalShippingCapacity {
 
         return largestWeight;
     }
-
     public static int calculateTotalWeight(int[] packageWeights) {
         int totalWeight = 0;
 

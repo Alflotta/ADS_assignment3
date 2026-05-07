@@ -14,7 +14,6 @@ public class MedianElement {
             }
         }
     }
-
     public static double calculateMedian(int[] sortedValues) {
         int size = sortedValues.length;
 

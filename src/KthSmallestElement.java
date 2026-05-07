@@ -5,7 +5,6 @@ public class KthSmallestElement {
 
     public static void sortArrayAscending(int[] numbers) {
         int size = numbers.length;
-
         for (int outerIndex = 0; outerIndex < size - 1; outerIndex++) {
             for (int innerIndex = 0; innerIndex < size - outerIndex - 1; innerIndex++) {
                 if (numbers[innerIndex] > numbers[innerIndex + 1]) {
@@ -33,12 +32,9 @@ public class KthSmallestElement {
             numbers[index] = inputReader.nextInt();
         }
 
-
         int kPosition = inputReader.nextInt();
 
-
         sortArrayAscending(numbers);
-
 
         int kthSmallestValue = findKthSmallest(numbers, kPosition);
 

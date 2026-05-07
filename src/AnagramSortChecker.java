@@ -4,7 +4,6 @@ public class AnagramSortChecker {
 
     public static void sortCharacters(char[] characters) {
         int length = characters.length;
-
         for (int outerIndex = 0; outerIndex < length - 1; outerIndex++) {
             for (int innerIndex = 0; innerIndex < length - outerIndex - 1; innerIndex++) {
                 if (characters[innerIndex] > characters[innerIndex + 1]) {
@@ -16,7 +15,6 @@ public class AnagramSortChecker {
             }
         }
     }
-
     public static boolean compareCharacterArrays(char[] firstWordChars, char[] secondWordChars) {
         for (int index = 0; index < firstWordChars.length; index++) {
             if (firstWordChars[index] != secondWordChars[index]) {
