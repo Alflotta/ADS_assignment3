@@ -39,7 +39,6 @@ public class AnagramSortChecker {
             return;
         }
 
-        // Convert to char arrays
         char[] firstWordCharacters = firstWord.toCharArray();
         char[] secondWordCharacters = secondWord.toCharArray();
 
